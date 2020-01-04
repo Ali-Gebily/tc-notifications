@@ -8,7 +8,7 @@ module.exports = {
 
   JWT_SECRET: process.env.JWT_SECRET || 'hjijfvbw859',
 
-  DATABASE_URL: process.env.DATABASE_URL || 'postgres://postgres:123456@localhost:5432/notification',
+  DATABASE_URL: process.env.DATABASE_URL || 'postgres://postgres:123456@dockerhost:5432/notification',
   DATABASE_OPTIONS: {
     dialect: 'postgres',
     pool: {

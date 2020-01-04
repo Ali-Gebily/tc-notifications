@@ -71,7 +71,7 @@ In case it expires, you may get a new token in this way:
 - install dependencies `npm i`
 - run code lint check `npm run lint`
 - start connect notification server `npm start`
-- the app is running at `http://localhost:3000`, it also starts Kafka consumer to listen for events and save unroll-ed notifications to db
+- the app is running at `http://dockerhost:3000`, it also starts Kafka consumer to listen for events and save unroll-ed notifications to db
 
 
 ## Heroku deployment

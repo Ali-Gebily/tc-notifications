@@ -3,7 +3,7 @@ info:
   title: "TOPCODER NOTIFICATIONS SERIES - NOTIFICATIONS SERVER"
   description: "TOPCODER NOTIFICATIONS SERIES - NOTIFICATIONS SERVER"
   version: "1.0.0"
-host: "localhost:3000"
+host: "dockerhost:3000"
 schemes:
 - "http"
 securityDefinitions:
